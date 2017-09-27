@@ -1,0 +1,425 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #f6f6f6;
+	font-weight: 300;
+}
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
+.cabecera{
+	width: 100%;
+	height: 50px;
+	padding-top: 20px;
+	background-color: #f6f6f6;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+.elementosCabecera{
+	width: 1180px;
+	margin: 0 auto;
+	/*margin-top: 65px;*/
+}
+.logo{
+	width: 200px;
+	height: 30px;
+	float: left;
+}
+.menu{
+	float: right;
+}
+.menu li{
+	display:inline;
+	margin-left: 35px;
+	margin-right: 35px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 2px;
+	color: #262626;
+}
+.contenedor{
+	width: 1180px;
+	margin: 0 auto;
+	margin-top: 80px;
+	background-color: white;
+}
+.imagenesBanner{
+	position: relative;
+}
+.imagenesBanner .imagen{
+	width: 1180px;
+	height: 592px;
+}
+.imagenesBanner .titulo{
+	width: 600px;
+	height: 25px;
+	display: block;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -20px;
+	margin-left: -300px;
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+}
+.imagenesBanner .descripcion{
+	width: 900px;
+	height: 60px;
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	margin-top: 30px;
+	left: 50%;
+	margin-left: -450px;
+	color: white;
+	text-transform: uppercase;
+}
+.imagenesBanner .pie{
+	width: 600px;
+	text-align: center;
+	font-size: 14px;
+	position: absolute;
+	top: 50%;
+	margin-top: 110px;
+	left: 50%;
+	margin-left: -300px;
+	color: white;
+	text-transform: uppercase;
+}
+.introduccion .titulo{
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 45px;
+}
+.introduccion .texto{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 25px;
+	font-size: 16px;
+	text-align: center;
+	color: grey;
+}
+.features{
+	width: 1060px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.features .descripcion{
+	width: 300px;
+	height: 245px;
+	background-color: white;
+	float: left;
+	margin-right: 52px;
+}
+.features .descripcion .titulo{
+	color: #cfb282;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 20px 0;
+}
+.features .descripcion .textoDescripcion{
+	color: grey;
+	font-size: 13px;
+	letter-spacing: 2px;
+	line-height: 18px;
+}
+.features .descripcion .flecha{
+	margin-top: 20px;
+	transition: .5s ease;
+}
+.features .producto{
+	width: 236px;
+	height: 245px;
+	float: right;
+	position: relative;
+}
+.cajaFantasma{
+	width: 220px;
+	height: 235px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -117.5px;
+	margin-left: -110px;
+	text-align: center;
+	opacity: 0;
+	transition: .5s ease;
+}
+.cajaFantasma .titulo{
+	font-size: 18px;
+	margin-top: 100px;
+}
+.cajaFantasma .subTitulo{
+	font-size: 12px;
+	margin-top: 5px;
+}
+.cajaFantasma .rayita{
+	width: 20px;
+	display: inline-block;
+	border-bottom: 1px solid #cfb282;
+}
+.cajaVideoTexto{
+	width: 1060px;
+	border-top: 1px solid #909090;
+	border-bottom: 1px solid #909090;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.cajaVideoTexto .video{
+	 width: 560px;
+	 height: 315px;
+	 display: inline-block;
+	 vertical-align: top;
+}
+.videoTexto{
+	width: 395px;
+	height: 315px;
+	margin-left: 100px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+}
+.videoTexto .titulo{
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+
+}
+.videoTexto .subTitulo{
+	color: #cfb282;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.videoTexto .parrafo{
+	color: grey;
+	letter-spacing: 2px;
+	line-height: 18px;
+}
+.videoTexto .credito1{
+	margin: 20px 0;
+	margin-top: 40px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.videoTexto .credito2{
+	margin: 20px 0;
+	text-transform: uppercase;
+	color: #cfb282;
+	font-size: 20px;
+}
+.videoTexto .credito3{
+	margin: 20px 0;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.portafolio{
+	width: 1080px;
+	margin-left: 60px;
+}
+.portafolio .titulo{
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-top: 80px;
+}
+.portafolio .introduccion{
+	margin-top: 30px;
+	color: grey;
+	margin-right: 300px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 16px;
+}
+.portafolio .rayita{
+	width: 15px;
+	border: 1px solid #cfb282;
+	margin: 30px 0;
+}
+.portafolio .item{
+	width: 340px;
+	height: 260px;
+	vertical-align: top;
+	background-color: grey;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	position: relative;
+}
+.cajaFantasmaPortafolio{
+	width: 320px;
+	height: 240px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -120px;
+	margin-left: -160px;
+	text-align: center;
+	opacity: 0;
+	transition: .5s ease;
+}
+.cajaFantasmaPortafolio .tittle{
+	font-size: 20px;
+	margin-top: 100px;
+}
+.cajaFantasmaPortafolio .subTitulo{
+	font-size: 12px;
+	margin-top: 5px;
+}
+.cajaFantasmaPortafolio .rayita{
+	width: 20px;
+	display: inline-block;
+	border-bottom: 1px solid #cfb282;
+}
+.slogan{
+	width: 1060px;
+	margin: 80px auto;
+	text-align: center;
+}
+.slogan .texto{
+	font-size: 18px;
+	background-color: #f0f0f0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #cfb282;
+	opacity: 0.6;
+}
+.services{
+	width: 1080px;
+	/*margin: 0 auto;*/
+	margin-left: 60px;
+}
+.services .titulo{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.services .descripcion{
+	margin-top: 30px;
+	margin-right: 250px;
+	font-size: 15px;
+	color: grey;
+	line-height: 18px;
+}
+.services .rayita{
+	width: 10px;
+	border-top: 1px solid #cfb282;
+	margin: 30px 0;
+}
+.servicio {
+	width: 250px;
+	height: 80px;
+	vertical-align: top;
+	position: relative;
+	margin-top: 40px;
+	float: left;
+	margin-right: 20px;
+}
+.servicio .imagen{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	left: 0;
+	transition: all 0.2s linear;
+}
+.servicio .tituloDescripcion{
+	width: 200px;
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+.tituloDescripcion .titulo{
+	font-size: 18px;
+	line-height: 18px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	font-weight: 700;
+}
+.tituloDescripcion .descripcion{
+	width: 200px;
+	font-size: 12px;
+	position: absolute;
+	top: 0px;
+}
+.subscripcionParalax{ 
+	width: 1060px;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 400px;
+    background-image: url(../img/banner2.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.subscripcionParalax .titulo{
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 150px;
+}
+.subscripcionParalax .descripcion{
+	font-size: 18px;
+	margin-top: 20px;
+}
+.formularioSubscripcion{
+	margin-top: 60px;
+}
+.formularioSubscripcion .nombre{
+	width: 200px;
+	height: 40px;
+	padding-left: 10px;
+}
+.formularioSubscripcion .mail{
+	width: 200px;
+	height: 40px;
+	padding-left: 10px;
+}
+.formularioSubscripcion .enviar{
+	width: 150px;
+	height: 45px;
+	padding-left: 10px;
+	background-color: #cfb282;
+	border: 0;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+
+
+/* HELPERS */
+.clear{
+	clear: both;
+}
+.dorado{
+	color: #cfb282;
+}
+/* Hovers */
+.flecha:hover{
+	transition: .5s ease;
+	margin-left: 10px;
+}
+.cajaFantasmaPortafolio:hover{
+	transition: .5s ease;
+	opacity: 0.9;
+}
+.cajaFantasma:hover{
+	transition: .5s ease;
+	opacity: 0.9;
+}
+.servicio:hover .imagen{
+	transform: rotate(10deg);
+	transition: all 0.2s linear;
+}
