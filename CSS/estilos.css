@@ -357,21 +357,24 @@ a {
     margin: 0 auto;
     margin-top: 60px;
     height: 400px;
-    background-image: url(../img/banner2.jpeg);
+    background-image: url(../img/paralax.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    margin-bottom: 80px;
 }
 .subscripcionParalax .titulo{
 	font-size: 30px;
 	text-transform: uppercase;
 	padding-top: 150px;
+	color: white;
 }
 .subscripcionParalax .descripcion{
 	font-size: 18px;
 	margin-top: 20px;
+	color: white;
 }
 .formularioSubscripcion{
 	margin-top: 60px;
@@ -395,8 +398,221 @@ a {
 	text-transform: uppercase;
 	color: white;
 }
+.sobreNosotros{
+	width: 1060px;
+	margin: 0 auto;
+	margin-top: 80px;
+	border-top: 1px solid grey;
+}
+.sobreNosotros .nosotros{
+	width: 450px;
+	vertical-align: top;
+	float: left;
+	margin-top: 100px;
+}
+.sobreNosotros .nosotros .titulo{
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.sobreNosotros .nosotros p{
+	margin-top: 20px;
+	color: grey;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
+.sobreNosotros .habilidades{
+	width: 450px;
+	float: right;
+	margin-top: 100px;
+}
+.sobreNosotros .habilidades .titulo{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.sobreNosotros .habilidades .nomHabilidad{
+	width: 400px;
+	float: left;
+	margin-top: 20px;
+}
+.sobreNosotros .habilidades .porcentaje{
+	width: 50px;
+	float: right;
+	margin-top: 20px;
+}
+.sobreNosotros .habilidades .pGris1{
+	width: 340px;
+	height: 18px;
+	background-color: #b7b7b7;
+	margin-top: 5px;
+	float: left;
+}
+.sobreNosotros .habilidades .pDorado1{
+	width: 110px;
+	height: 18px;
+	background-color: #cfb282;
+	margin-top: 5px;
+	float: right;
+}
+.sobreNosotros .habilidades .pGris2{
+	width: 320px;
+	height: 18px;
+	background-color: #b7b7b7;
+	margin-top: 5px;
+	float: left;
+}
+.sobreNosotros .habilidades .pDorado2{
+	width: 130px;
+	height: 18px;
+	background-color: #cfb282;
+	margin-top: 5px;
+	float: right;
+}
+.sobreNosotros .habilidades .pGris3{
+	width: 380px;
+	height: 18px;
+	background-color: #b7b7b7;
+	margin-top: 5px;
+	float: left;
+}
+.sobreNosotros .habilidades .pDorado3{
+	width: 70px;
+	height: 18px;
+	background-color: #cfb282;
+	margin-top: 5px;
+	float: right;
+}
+.team{
+	width: 1060px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+.team .persona{
+	width: 300px;
+	height: 360px;
+	float: left;
+	margin-right: 80px;
+	position: relative;
+}
+.team .personaDerecha{
+	width: 300px;
+	height: 360px;
+	float: right;
+	position: relative;
+}
+.cajaFanstasmaTeam{
+	width: 280px;
+	height: 340px;
+	background-color: white;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	opacity: 0;
+	text-align: center;
+	transition: .5s ease;
+}
+.cajaFanstasmaTeam .nombre{
+	width: 280px;
+	font-size: 20px;
+	color: grey;
+	position: absolute;
+	top: 120px;
+}
+.cajaFanstasmaTeam .rayita{
+	position: absolute;
+	top: 150px;
+}
+.cajaFanstasmaTeam .cargo{
+	width: 200px;
+	position: absolute;
+	top: 160px;
+	left: 50%;
+	margin-left: -100px;
+	color: grey;
+}
+.rayitaPersona{
+	margin-left: 130px;
+	width: 40px;
+	display: inline-block;
+	border-bottom: 1px solid #cfb282;
+}
+.iconosSocial{
+	width: 250px;
+	margin: 0 auto;
+	text-align: center;	
+}
+.clientesTestimonios{
+	width: 1060px;
+	height: 500px;
+	margin: 0 auto;
+	border-top: 1px solid grey;
+}
+.clientesTestimonios .client{
+	width: 540px;
+	height: 200px;
+	margin-top: 50px;
+	vertical-align: top;
+	float: left;
+}
+.client .titulo{
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+.client .logo{
+	width: 100px;
+	height: 100px;
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+}
+.client .logo img{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.clientesTestimonios .testimonios{
+	width: 400px;
+	height: 300px;
+	margin-top: 50px;
+	vertical-align: top;
+	float: right;
+}
+.testimonios .titulo{
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 40px;
+	text-align: right;
+}
+.testimonios .testimonio{
+	color: grey;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2px;
+	text-align: right;
+}
+.testimonios .autor{
+	color: grey;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 2px;
+	text-align: right;
+	margin-top: 10px;
+}
+.contacto{
+	width: 1060px;
+	margin: 0 auto;
+	background-color: gold;
+}
 
+.contacto .datos .mapa{
+	width: 500px;
+	height: 500px;
 
+}
 
 
 /* HELPERS */
@@ -405,6 +621,11 @@ a {
 }
 .dorado{
 	color: #cfb282;
+}
+.rayita{
+	width: 20px;
+	display: inline-block;
+	border-bottom: 1px solid #cfb282;
 }
 /* Hovers */
 .flecha:hover{
@@ -416,6 +637,10 @@ a {
 	opacity: 0.9;
 }
 .cajaFantasma:hover{
+	transition: .5s ease;
+	opacity: 0.9;
+}
+.cajaFanstasmaTeam:hover{
 	transition: .5s ease;
 	opacity: 0.9;
 }
