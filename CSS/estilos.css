@@ -91,9 +91,7 @@ a {
 	color: white;
 	text-transform: uppercase;
 }
-.introduccion .titulo{
-	font-size: 30px;
-	text-transform: uppercase;
+.introduccion{
 	text-align: center;
 	margin-top: 45px;
 }
@@ -116,29 +114,40 @@ a {
 	height: 245px;
 	background-color: white;
 	float: left;
-	margin-right: 52px;
 }
 .features .descripcion .titulo{
 	color: #cfb282;
 	text-transform: uppercase;
 	font-size: 18px;
 	margin: 20px 0;
+	float: left;
 }
 .features .descripcion .textoDescripcion{
 	color: grey;
 	font-size: 13px;
 	letter-spacing: 2px;
 	line-height: 18px;
+	margin-top: 60px;
 }
 .features .descripcion .flecha{
 	margin-top: 20px;
 	transition: .5s ease;
 }
+.cajaProductos{
+	width: 708px;
+	float: right;
+	display: inline-block;
+}
 .features .producto{
 	width: 236px;
 	height: 245px;
 	float: right;
+	display: inline-block;
 	position: relative;
+}
+.features .producto img{
+	width: 236px;
+	height: 245px;
 }
 .cajaFantasma{
 	width: 220px;
@@ -225,12 +234,8 @@ a {
 	font-size: 20px;
 }
 .portafolio{
-	width: 1080px;
-	margin-left: 60px;
-}
-.portafolio .titulo{
-	text-transform: uppercase;
-	font-size: 30px;
+	width: 1060px;
+	margin: 0 auto;
 	margin-top: 80px;
 }
 .portafolio .introduccion{
@@ -240,13 +245,14 @@ a {
 	font-size: 14px;
 	letter-spacing: 1px;
 	line-height: 16px;
+	text-align: left;
 }
 .portafolio .rayita{
 	width: 15px;
 	border: 1px solid #cfb282;
 	margin: 30px 0;
 }
-.portafolio .item{
+.item{
 	width: 340px;
 	height: 260px;
 	vertical-align: top;
@@ -255,6 +261,10 @@ a {
 	margin-right: 20px;
 	float: left;
 	position: relative;
+}
+.item img{
+	width: 340px;
+	height: 260px;
 }
 .cajaFantasmaPortafolio{
 	width: 320px;
@@ -296,8 +306,8 @@ a {
 	opacity: 0.6;
 }
 .services{
-	width: 1080px;
-	/*margin: 0 auto;*/
+	width: 1060px;
+	margin: 0 auto;
 	margin-left: 60px;
 }
 .services .titulo{
@@ -342,9 +352,10 @@ a {
 .tituloDescripcion .titulo{
 	font-size: 18px;
 	line-height: 18px;
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	font-weight: 700;
+	margin-top: 0;
 }
 .tituloDescripcion .descripcion{
 	width: 200px;
@@ -605,17 +616,91 @@ a {
 .contacto{
 	width: 1060px;
 	margin: 0 auto;
-	background-color: gold;
 }
-
+.contacto .texto{
+	width: 600px;
+}
+.contacto .datos{
+	width: 400px;
+	margin-top: 40px;
+	vertical-align: top;
+	float: left;
+}
 .contacto .datos .mapa{
-	width: 500px;
-	height: 500px;
+	margin-top: 20px;
+	width: 320px;
+	height: 150px;
 
 }
-
-
+.formularioContacto{
+	width: 600px;
+	height: 400px;
+	margin-top: 40px;
+	margin-left: 40px;
+	vertical-align: top;
+	float: right;
+}
+.cajaform{
+	width: 200px;
+	display: inline-block;
+	float: left;
+}
+.formularioContacto .nombre{
+	width: 190px;
+	height: 30px;
+	margin-top: 10px;
+}
+.formularioContacto .mail{
+	width: 190px;
+	height: 30px;
+	margin-top: 10px;
+}
+.formularioContacto .asunto{
+	width: 190px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.formularioContacto .areaTexto{
+	margin-top: 10px;
+	width: 590px;
+	height: 150px;
+}
+.formularioContacto .enviar{
+	width: 120px;
+	height: 40px;
+	border: 1px solid black;
+	background-color: white;
+	text-transform: uppercase;
+	margin-top: 40px;
+	font-size: 14px;
+	transition: all 0.2s linear;
+}
+.piePagina{
+	width: 1060px;
+	height: 25px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.piePagina h4{
+	display: inline-block;
+	font-size: 20px;
+}
 /* HELPERS */
+.titulo{
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 40px 0;
+}
+.subtitulo{
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 20px 0;
+	color: grey;
+}
 .clear{
 	clear: both;
 }
@@ -626,6 +711,9 @@ a {
 	width: 20px;
 	display: inline-block;
 	border-bottom: 1px solid #cfb282;
+}
+.marginRC{
+	margin-right: 0px;
 }
 /* Hovers */
 .flecha:hover{
@@ -646,5 +734,10 @@ a {
 }
 .servicio:hover .imagen{
 	transform: rotate(10deg);
+	transition: all 0.2s linear;
+}
+.formularioContacto .enviar:hover{
+	border: 1px solid #cfb282;
+	color: #cfb282;
 	transition: all 0.2s linear;
 }

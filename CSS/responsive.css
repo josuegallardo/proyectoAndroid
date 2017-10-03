@@ -1,0 +1,90 @@
+@media (min-width: 0px) and (max-width: 1024px){
+	.cabecera{
+		width: 100%;
+	}
+	.elementosCabecera{
+		width: 100%;
+	}
+	.contenedor{
+		width: 100%;
+	}
+	.imagenesBanner{
+		width: 100%;
+	}
+	.imagenesBanner .imagen{
+		width: 100%;
+		height: auto;
+	}
+	.imagenesBanner .titulo{
+	width: 100%;
+	text-align: center;
+	margin-left: 0px;
+	left: 0;
+}
+.introduccion{
+	width: 100%;
+}
+.features{
+	width: 100%;
+}
+.features .descripcion{
+	width: 30%;
+	margin-left: 0%;
+}
+.cajaProductos{
+	width: 70%;
+	margin-right: 0%;
+}
+.features .producto{
+	width: 33%;
+}
+.features .producto img{
+	width: 100%;
+	height: 100%;
+}
+.cajaFantasma{
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.cajaVideoTexto{
+	width: 100%;
+}
+.cajaVideoTexto .video{
+	 width: 60%;
+
+}
+.videoTexto{
+	width: 39%;
+	margin-left: 0px;
+}
+.portafolio{
+	width: 100%
+}
+.portafolio .introduccion{
+	width: 60%;
+}
+.item{
+	width: 30%;
+	margin-right: 3.3%;
+}
+.item img{
+	width: 100%;
+	height: 100%
+}
+.cajaFantasmaPortafolio{
+	width: 90%;
+	top: 50%;
+	left: 50%;
+	margin-top: -42%;
+	margin-left: -45%;
+}
+
+
+	.piePagina{
+		width: 100%;
+	}
+}

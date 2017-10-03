@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="title" content="Web de Josue">
+	<meta name="description" content="La mejor web del mundo">
+	<meta name="keywords" content="Josue Gallardo el mejor">
+	<meta name="author" content="Josue Gallardo Rangel">
 	<title>Josue Gallardo - Web</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 </head>
 <body>
 <header class="cabecera">
@@ -48,6 +55,7 @@
 			consequat.</p>
 			<img class="flecha" src="img/flecha.png">
 		</div>
+		<div class="cajaProductos">
 		<div class="producto">
 			<img src="img/featured1.jpeg">
 			<div class="cajaFantasma">
@@ -71,6 +79,8 @@
 				<h4 class="subTitulo">Lorem ipsum dolor</h4>
 				<div class="rayita"></div>
 			</div>
+		</div>
+		<div class="clear"></div>
 		</div>
 		<div class="clear"></div>
 	</section>
@@ -107,7 +117,7 @@
 				<div class="rayita"></div>
 			</div>
 		</article>
-		<article class="item">
+		<article class="item marginRC">
 			<img src="img/pf3.jpeg">
 			<div class="cajaFantasmaPortafolio">
 				<h3 class="tittle">Portafolio</h3>
@@ -131,7 +141,7 @@
 				<div class="rayita"></div>
 			</div>
 		</article>
-		<article class="item">
+		<article class="item marginRC">
 			<img src="img/pf6.jpeg">
 			<div class="cajaFantasmaPortafolio">
 				<h3 class="tittle">Portafolio</h3>
@@ -155,7 +165,7 @@
 				<div class="rayita"></div>
 			</div>
 		</article>
-		<article class="item">
+		<article class="item marginRC">
 			<img src="img/pf4.jpeg">
 			<div class="cajaFantasmaPortafolio">
 				<h3 class="tittle">Portafolio</h3>
@@ -207,7 +217,7 @@
 				<p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisic.</p>
 			</div>
 		</article>
-		<article class="servicio">
+		<article class="servicio marginRC">
 			<img class="imagen" src="img/ico/ico3.png">
 			<div class="tituloDescripcion">
 				<h4 class="titulo">Servicio 1</h4>
@@ -346,18 +356,48 @@
 		<div class="clear"></div>
 	</section>
 	<section class="contacto">
-		<h3 class="titulo"></h3>
-		<p class="texto"></p>
+		<h3 class="titulo">Mantente en contacto</h3>
+		<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
 		<div class="rayita"></div>
 		<div class="datos">
-			<h4 class="direccion"></h4>
-			<address class="texto"></address>
-			<h4 class="telefonoMail"></h4>
-			<address class="texto"></address>
+			<h4 class="subtitulo">Dirección</h4>
+			<address class="texto">Av. Siempre viva Nº 123</address>
+			<h4 class="subtitulo">Telefono / Mail</h4>
+			<address class="texto">511 946 362 237</address>
+			<span class="email">mail@agencia.com</span><br>
 			<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.6375440073425!2d-77.02432570943918!3d-12.068440908027245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c890b4f44b1b%3A0x452d52e5045df58e!2sEstadio+Alejandro+Villanueva+-+Alianza+Lima!5e0!3m2!1ses!2spe!4v1506630728644" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
-		<div class="formulario"></div>
+		<form class="formularioContacto">
+			<div class="cajaform">
+				<span>Nombre</span><br>
+				<input class="nombre" type="text" name="nombre" placeholder ="Nombre">
+			</div>
+			<div class="cajaform">
+				<span>Mail</span><br>
+				<input class="mail" type="mail" name="correo" placeholder="Correo">
+			</div>
+			<div class="cajaform">
+				<span>Asunto</span><br>
+				<input class="asunto" type="mail" name="correo" placeholder="Asunto">
+			</div>
+			<div class="clear"></div>
+			<span>Mensaje</span><br>
+			<textarea class="areaTexto" placeholder="Agrega un breve mensaje" name="Texto"></textarea>
+			<input class="enviar" type="submit" name="enviar">
+		</form>
+		<div class="clear"></div>
 	</section>
 </div>
+<footer class="piePagina">
+	<a href=""><img src="img/socialico/icofb.png"></a>
+	<a href=""><img src="img/socialico/icotw.png"></a>
+	<a href=""><img src="img/socialico/icoig.png"></a>
+	<a href=""><img src="img/socialico/icoin.png"></a>
+	<a href=""><img src="img/socialico/icopt.png"></a>
+	<h4> Desarrollado por Josue Gallardo</h4>
+</footer>
 </body>
 </html>
