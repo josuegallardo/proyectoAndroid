@@ -6,10 +6,13 @@ body{
 a {
   color: inherit; 
   text-decoration: inherit;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
 }
 .cabecera{
 	width: 100%;
-	height: 50px;
+	height: 60px;
 	padding-top: 20px;
 	background-color: #f6f6f6;
 	position: fixed;
@@ -90,6 +93,39 @@ a {
 	margin-left: -300px;
 	color: white;
 	text-transform: uppercase;
+}
+.contenedorSlider{
+	width:100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.flechaIzquierda{
+	position: absolute;
+	top: 50%;
+	width: 2%;
+	opacity: 0.3;
+}
+.flechaDerecha{
+	position: absolute;
+	top:50%;
+	width: 2%;
+	opacity: 0.3;
+	left: 98.1%;
+}
+.contieneCajas{
+	position: absolute;
+	width: 100%;
+	height: 1%;
+	text-align: center;
+	top: 90%;
+}
+.cajaSlide{
+	width: 0.5%;
+	height: 100%;
+	border: 0.5px solid #cfb282;
+	display: inline-block;
 }
 .introduccion{
 	text-align: center;
@@ -508,11 +544,19 @@ a {
 	margin-right: 80px;
 	position: relative;
 }
+.team .persona .imgPersona{
+	width: 300px;
+	height: 360px;
+}
 .team .personaDerecha{
 	width: 300px;
 	height: 360px;
 	float: right;
 	position: relative;
+}
+.team .personaDerecha .imgPersona{
+	width: 300px;
+	height: 360px;
 }
 .cajaFanstasmaTeam{
 	width: 280px;
@@ -573,17 +617,19 @@ a {
 	font-size: 25px;
 	margin-bottom: 40px;
 }
+.client .logosCaja{
+	width: 540px;
+}
 .client .logo{
 	width: 100px;
 	height: 100px;
-	float: left;
 	text-align: center;
 	margin-right: 20px;
+	float: left;
 }
 .client .logo img{
 	width: 60px;
 	height: 60px;
-	float: left;
 }
 .clientesTestimonios .testimonios{
 	width: 400px;
@@ -715,6 +761,9 @@ a {
 .marginRC{
 	margin-right: 0px;
 }
+.bgGold{
+	background-color: #cfb282;
+}
 /* Hovers */
 .flecha:hover{
 	transition: .5s ease;
@@ -741,3 +790,4 @@ a {
 	color: #cfb282;
 	transition: all 0.2s linear;
 }
+.goldSlider,.hoverGold:hover{color:#cfb282!important;background-color:#cfb282!important}

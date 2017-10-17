@@ -1,32 +1,44 @@
-@media (min-width: 0px) and (max-width: 1024px){
-	.cabecera{
-		width: 100%;
-	}
-	.elementosCabecera{
-		width: 100%;
-	}
-	.contenedor{
-		width: 100%;
-	}
-	.imagenesBanner{
-		width: 100%;
-	}
-	.imagenesBanner .imagen{
-		width: 100%;
-		height: auto;
-	}
-	.imagenesBanner .titulo{
+@media (min-width: 1060px){
+.cabecera{width: 100%;}
+.elementosCabecera{width: 100%;}
+}
+@media (min-width: 0px) and (max-width: 1060px){ /*Tablet*/
+.cabecera{width: 100%;}
+.elementosCabecera{width: 100%;}
+.logo{
+	width: 20%;
+	margin-left: 40%;
+	margin-bottom: 1%;
+}
+.menu{width: 100%;}
+.menu li{
+	margin-left: 4%;
+	margin-right: 4%;
+
+}
+.contenedor{width: 100%;}
+.imagenesBanner{width: 100%;}
+.imagenesBanner .imagen{
+	width: 100%;
+	height: auto;
+}
+.imagenesBanner .titulo{
 	width: 100%;
 	text-align: center;
 	margin-left: 0px;
 	left: 0;
 }
-.introduccion{
-	width: 100%;
+.imagenesBanner .descripcion{
+	width: 96%;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	margin-top: 2%;
+	left: 50%;
+	margin-left: -48%;
 }
-.features{
-	width: 100%;
-}
+.introduccion{width: 100%;}
+.features{width: 100%;}
 .features .descripcion{
 	width: 30%;
 	margin-left: 0%;
@@ -35,12 +47,10 @@
 	width: 70%;
 	margin-right: 0%;
 }
-.features .producto{
-	width: 33%;
-}
+.features .producto{width: 33%;}
 .features .producto img{
 	width: 100%;
-	height: 100%;
+	
 }
 .cajaFantasma{
 	width: 100%;
@@ -50,26 +60,18 @@
 	margin-top: 0px;
 	margin-left: 0px;
 }
-.cajaVideoTexto{
-	width: 100%;
-}
-.cajaVideoTexto .video{
-	 width: 60%;
-
-}
+.cajaVideoTexto{width: 100%;}
+.cajaVideoTexto .video{width: 60%;}
 .videoTexto{
 	width: 39%;
 	margin-left: 0px;
 }
-.portafolio{
-	width: 100%
-}
-.portafolio .introduccion{
-	width: 60%;
-}
+.portafolio{width: 100%}
+.portafolio .introduccion{width: 90%;}
 .item{
-	width: 30%;
-	margin-right: 3.3%;
+	width: 30.3%;
+	margin-right: 1.5%;
+	margin-left: 1.5%
 }
 .item img{
 	width: 100%;
@@ -82,9 +84,202 @@
 	margin-top: -42%;
 	margin-left: -45%;
 }
+.slogan{width: 100%;}
+.slogan .texto{padding: 5% 5%;}
+.services{
+	width: 100%;
+	margin-left: 0%;
+}
+.services .descripcion{margin-right: 0%;}
+.servicio {
+	width: 30%;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+.subscripcionParalax{ width: 100%;}
+.subscripcionParalax .titulo{padding-top: 15%;}
+.subscripcionParalax .descripcion{margin-top: 1%;}
+.formularioSubscripcion{margin-top: 3%;}
+.sobreNosotros{width: 100%;}
+.sobreNosotros .nosotros{width: 50%;}
+.sobreNosotros .habilidades{width: 50%;}
+.sobreNosotros .habilidades .nomHabilidad{width: 90%;}
+.sobreNosotros .habilidades .porcentaje{width: 10%;}
+.sobreNosotros .habilidades .pGris1{width: 80%;}
+.sobreNosotros .habilidades .pDorado1{width: 20%}
+.sobreNosotros .habilidades .pGris2{width: 75%;}
+.sobreNosotros .habilidades .pDorado2{width: 25%;}
+.sobreNosotros .habilidades .pGris3{width: 85%;}
+.sobreNosotros .habilidades .pDorado3{width: 15%;}
+.team{width: 100%;}
+.team .persona{
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}
+.team .persona .imgPersona{width: 100%;}
+.team .personaDerecha{
+	width: 30%;
+	margin-left: 0%;
+	margin-bottom: 10%;
+}
+.team .personaDerecha .imgPersona{width: 100%;}
+.cajaFanstasmaTeam{
+	width: 90%;
+	left: 5%;
+	top: 3%;
+}
+.cajaFanstasmaTeam .nombre{width: 100%;}
+.cajaFanstasmaTeam .rayita{left: 45%;}
+.cajaFanstasmaTeam .cargo{
+	width: 100%;
+	left: 0%;
+	margin-left: 0;
+}
+.rayitaPersona{
+	margin-left: 45%;
+	width: 10%;
+}
+.clientesTestimonios{width: 100%; }
+.clientesTestimonios .client{width: 50%;}
+.client .logosCaja{
+	width: 100%;
+}
+.client .logo{
+	width: 20%;
+	height: 20%;
+	margin-left: 0%;
+	text-align: center;
+	margin-right: 1%;
+}
+.clientesTestimonios .testimonios{width: 50%;}
+.contacto{width: 100%;}
+.contacto .texto{width: 80%;}
+.contacto .datos{width: 40%;}
+.contacto .datos .mapa{width: 95%;}
+.formularioContacto{
+	width: 60%;
+	margin-left: 0px;
+}
+.formularioContacto .areaTexto{width: 98%;}
+.piePagina{width: 100%;}
+}
+/*
+@media (min-width: 0px) and (max-width: 767px){ /*Celular de lado*/
 
 
-	.piePagina{
-		width: 100%;
-	}
+@media (min-width: 0px) and (max-width: 767px){ /*Celular de lado*/
+.imagenesBanner{width: 100%;}
+.imagenesBanner .imagen{
+	width: 100%;
+	height: auto;
+}
+.imagenesBanner .titulo{
+	width: 100%;
+	text-align: center;
+	margin-left: 0px;
+	left: 0;
+	top: 40%;
+	font-size: 16px;
+}
+.imagenesBanner .descripcion{
+	width: 80%;
+	font-size: 20px;
+	top: 40%;
+	margin-left: -40%;
+}
+.imagenesBanner .pie{
+	top: 40%;
+}
+.introduccion{width: 100%;}
+.features{width: 100%;}
+.features .descripcion{width: 100%;}
+.cajaProductos{width: 100%;}
+.cajaVideoTexto{width: 100%;}
+.cajaVideoTexto .video{width: 100%;}
+.videoTexto{width: 100%;}
+.portafolio{width: 100%}
+.portafolio .introduccion{width: 100%;}
+.item{
+	width: 48%;
+	margin-right: 1%;
+	margin-left: 1%
+}
+
+.servicio {
+	width: 48%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+.sobreNosotros{width: 100%;}
+.sobreNosotros .nosotros{width: 100%;}
+.sobreNosotros .habilidades{width: 80%; margin-right: 10%;}
+.team{width: 100%;}
+.team .persona{
+	width: 45%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+.team .persona .imgPersona{width: 100%;}
+.team .personaDerecha{
+	width: 45%;
+	margin-right: 25%;
+}
+.clientesTestimonios{width: 100%; }
+.clientesTestimonios .client{width: 100%;}
+.clientesTestimonios .testimonios{width: 100%;}
+.contacto{width: 100%;}
+.contacto .texto{width: 100%;}
+.contacto .datos{width: 100%;}
+.contacto .datos .mapa{width: 95%;}
+.formularioContacto{width: 100%;}
+.formularioContacto .areaTexto{width: 98%;}
+.formularioContacto .enviar{margin-top: 10px;}
+}
+@media (min-width: 0px) and (max-width: 480px){ /*Celular de pie*/
+.imagenesBanner .titulo{
+	width: 100%;
+	text-align: center;
+	margin-left: 0px;
+	left: 0;
+	top: 20%;
+	font-size: 16px;
+}
+.imagenesBanner .descripcion{
+	width: 80%;
+	font-size: 20px;
+	top: 20%;
+	margin-left: -40%;
+}
+.imagenesBanner .pie{
+	top: 10%;
+}
+.introduccion{width: 100%;}
+.features{width: 100%;}
+.features .descripcion{width: 100%;}
+.cajaProductos{width: 100%;}
+.features .producto{width: 70%;margin-right: 15%;}
+.item{
+	width: 100%;
+	margin-right: 0%;
+	margin-left: 0%
+}
+.servicio {
+	width: 80%;
+	margin-right: 0%;
+	margin-left: 20%;
+}
+.team .persona{
+	width: 95%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-bottom: 20%;
+}
+.team .personaDerecha{
+	width: 95%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-bottom: 20%;
+}
 }
