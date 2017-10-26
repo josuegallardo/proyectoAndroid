@@ -10,7 +10,8 @@
 	margin-left: 40%;
 	margin-bottom: 1%;
 }
-.menu{width: 100%;}
+.menu{width: 100%;
+text-align: center;}
 .menu li{
 	margin-left: 4%;
 	margin-right: 4%;
@@ -78,11 +79,12 @@
 	height: 100%
 }
 .cajaFantasmaPortafolio{
-	width: 90%;
-	top: 50%;
-	left: 50%;
-	margin-top: -42%;
-	margin-left: -45%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	margin-top: 0;
+	margin-left: 0;
 }
 .slogan{width: 100%;}
 .slogan .texto{padding: 5% 5%;}
@@ -164,11 +166,22 @@
 .formularioContacto .areaTexto{width: 98%;}
 .piePagina{width: 100%;}
 }
-/*
 @media (min-width: 0px) and (max-width: 767px){ /*Celular de lado*/
-
-
-@media (min-width: 0px) and (max-width: 767px){ /*Celular de lado*/
+	.logo{
+		width: 20%;
+		margin-left: 20%;
+	}
+    .menu ul {
+        display: none;
+    }
+    #icon-mobile {
+        display: block;
+        float: right;
+    }
+    #icon-mobile{
+        float: right;
+        margin: 10px;
+    }
 .imagenesBanner{width: 100%;}
 .imagenesBanner .imagen{
 	width: 100%;
@@ -197,7 +210,7 @@
 .cajaProductos{width: 100%;}
 .cajaVideoTexto{width: 100%;}
 .cajaVideoTexto .video{width: 100%;}
-.videoTexto{width: 100%;}
+.videoTexto{width: 100%; text-align: center;}
 .portafolio{width: 100%}
 .portafolio .introduccion{width: 100%;}
 .item{

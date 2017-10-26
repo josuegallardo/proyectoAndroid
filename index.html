@@ -7,33 +7,43 @@
 	<meta name="author" content="Josue Gallardo Rangel">
 	<title>Josue Gallardo - Web</title>
 	<meta charset="utf-8">
-	<script type="text/javascript" src="js/main.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 </head>
 <body>
-<header class="cabecera">
+<header id="header" class="cabecera">
 	<div class="elementosCabecera">
-		<div class="contenedorLogo"><img class="logo" src="http://lorempixel.com/200/50/"></div>
+		<div class="contenedorLogo"><img class="logo" src="img/logo.png"></div>
+        <img id="icon-mobile" src="img/ico/nav-icon.png"/>
 		<nav class="menu">
 			<ul>
 				<li><a href="">Home</a></li>
 				<li><a href="#portafolioLK">Portfolio</a></li>
 				<li><a href="#servicesLK">Service</a></li>
 				<li><a href="#nosotrosLK">About</a></li>
-				<li><a href="#contactoLK">Contact</a></li>
+				<li id="contactoSB"><a href="#contactoLK">Contact</a></li>
 			</ul>
 		</nav>
 		<div class="clear"></div>
-	</div>
-</header>
+		<nav class="menuMobile">
+			<span class="cerrar">X</span>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="#portafolioLK">Portfolio</a></li>
+				<li><a href="#servicesLK">Service</a></li>
+				<li><a href="#nosotrosLK">About</a></li>
+				<li id="contactoSB"><a href="#contactoLK">Contact</a></li>
+			</ul>
+		</nav>
+		</div>
+		</header>
 <div class="contenedor">
-	<section class="imagenesBanner">
+<section class="imagenesBanner">
     <div class="slides">
     <img class="imagen" src="img/banner1.jpg">
     <div  class="titulo"><h2>Estudio diseño</h2></div>
@@ -64,13 +74,13 @@
       <div class="cajaSlide hoverGold" onclick="currentDiv(2)"></div>
       <div class="cajaSlide hoverGold" onclick="currentDiv(3)"></div>
     </div>
-  </section>
-	<section class="introduccion">
+</section>
+<section class="introduccion">
 		<h2 class="titulo"> Estudio de diseño mas genial del todos</h2>
 		<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua.</p>
-	</section>
-	<section class="features">
+</section>
+<section class="features">
 		<div class="descripcion">
 			<h3 class="titulo">Features Works /</h3>
 			<p class="textoDescripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -107,8 +117,8 @@
 		<div class="clear"></div>
 		</div>
 		<div class="clear"></div>
-	</section>
-	<section class="cajaVideoTexto">
+</section>
+<section class="cajaVideoTexto">
 		<iframe class="video" src="https://www.youtube.com/embed/S3YBTMwj74k" frameborder="0" allowfullscreen></iframe>
 		<div class="videoTexto">
 				<h3 class="titulo">Josué Gallardo</h3>
@@ -119,8 +129,8 @@
 				<h3 class="credito2">de todos</h3>
 				<h3 class="credito3">fin</h3>
 		</div>
-	</section>
-	<section class="portafolio" id="portafolioLK">
+</section>
+<section class="portafolio" id="portafolioLK">
 		<h3 class="titulo">Portafolio</h3>
 		<p class="introduccion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -214,11 +224,11 @@
 			</div>
 		</article>
 		<div class="clear"></div>
-	</section>
-	<section class="slogan">
+</section>
+<section class="slogan">
 		<h3 class="texto">"Sicing elitr, sed diam nonumy eir umod tempor invidunt utum la daaliq muyam erat, sed diam voluptua."</h3>
-	</section>
-	<section class="services" id="servicesLK">
+</section>
+<section class="services" id="servicesLK">
 		<h3 class="titulo">Nuestros servicios</h3>
 		<p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -263,8 +273,8 @@
 			</div>
 		</article>
 		<div class="clear"></div>
-	</section>
-	<section class="subscripcionParalax">
+</section>
+<section class="subscripcionParalax">
 		<h3 class="titulo">Subscribete por noticias</h3>
 		<h4 class="descripcion">Lorem ipsum dolor <span class="dorado"> sit amet</span></h4>
 		<form class="formularioSubscripcion">
@@ -272,8 +282,8 @@
 			<input class="mail" type="mail" name="correo" placeholder="Correo">
 			<input class="enviar" type="submit" name="enviar">
 		</form>
-	</section>
-	<section class="sobreNosotros" id="nosotrosLK">
+</section>
+<section class="sobreNosotros" id="nosotrosLK">
 		<div class="nosotros">
 			<h3 class="titulo">Sobre nosotros</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -425,45 +435,6 @@
 	<a href=""><img src="img/socialico/icopt.png"></a>
 	<h4> Desarrollado por Josue Gallardo</h4>
 </footer>
-<script type="text/javascript">
-	var slideIndex = 1;
-showDivs(slideIndex);
-var myIndex = 0;
-carousel();
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slides");
-  var dots = document.getElementsByClassName("cajaSlide");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" goldSlider", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " goldSlider";
-}
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("slides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 5000); // Carga cada 5 segundos
-}
-</script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
