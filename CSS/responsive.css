@@ -1,15 +1,11 @@
-@media (min-width: 1060px){
+@media (max-width: 1180px){
 .cabecera{width: 100%;}
 .elementosCabecera{width: 100%;}
 }
-@media (min-width: 0px) and (max-width: 1060px){ /*Tablet*/
+@media (min-width: 0px) and (max-width: 1180px){ /*Tablet*/
 .cabecera{width: 100%;}
 .elementosCabecera{width: 100%;}
-.logo{
-	width: 20%;
-	margin-left: 40%;
-	margin-bottom: 1%;
-}
+.logo{margin-left: 40%;}
 .menu{width: 100%;
 text-align: center;}
 .menu li{
@@ -168,8 +164,8 @@ text-align: center;}
 }
 @media (min-width: 0px) and (max-width: 767px){ /*Celular de lado*/
 	.logo{
-		width: 20%;
-		margin-left: 20%;
+		margin-left: 40%;
+		margin-top: 2%;
 	}
     .menu ul {
         display: none;
