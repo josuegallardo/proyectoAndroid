@@ -4,11 +4,11 @@ $(".menuMobile li").click(menuCerrar)
 $(".cerrar").click(menuCerrar)
 function menu(){
   $(".menuMobile").slideToggle();
-  $("#icon-mobile").hide();
+  //$("#icon-mobile").hide();
 }
 function menuCerrar(){
   $(".menuMobile").hide();
-  $("#icon-mobile").show();
+  //$("#icon-mobile").show();
 }
 //Slider de imagenes
 var slideIndex = 1;
